@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<string name="app_name">铁杆英语</string>
+<string name="ok">确定</string>
+<string name="cancel">取消</string>
+<string name="revert">返回列表</string>
+
+<string name="app_id">52ac4b82</string>
+<string name="text_iat_begin">请开始说话...</string>
+<string name="text_iat_stop">停止</string>
+<string name="text_iat_cancel">取消</string>	
+<string	name="text_login_fail">登录失败</string>
+
+<string name="alert_name">点击播放声音</string>
+<string name="top_class"></string>
+<string name="top_subject">题目：</string>
+<string name="top_split">/</string> 
+<string name="top_time">用时：</string>
+<string name="top_seconds">秒</string>
+
+<string name="strInputAccHint">输入帐号</string>
+<string name="strAccInputLabel">帐号</string>
+<string name="strPswInputLabel">密码</string>
+<string name="opt_remember">记住密码</string>
+<string name="login">登 录</string>
+<string name="reg">注 册</string>
+
+<string name="showanswer">显示答案:</string>
+<string name="hideanswer">隐藏答案:</string>
+<string name="addfavorite">加入收藏</string>
+
+<string name="classfontsize">分类字体大小:</string>
+<string name="subjectfontsize">中文翻译答案:</string>
+<string name="answerfontsize">点击选项字母:</string>
+<string name="picheight">图片高度:</string>
+<string name="setup">设置</string>
+<string name="audiointro">音频简介</string>
+<string name="visitmore">点击访问全部内容</string>
+
+<string name="record">录音</string>
+<string name="stoprecord">停止</string>
+<string name="playrecord">播放</string>
+<string name="presubject">上一题</string>
+<string name="nextsubject">下一题</string>
+<string name="nextstep">下一步</string>
+<string name="cancelvoice">取消语音评测</string>
+<string name="recovervoice">恢复语音评测</string>
+
+<string name="playallsource">播放原音</string>
+<string name="playallrecord">播放录音</string>
+<string name="givescore">录音打分</string>
+<string name="recordupload">录音上传</string>
+<string name="viewranking">查看排名</string>
+<string name="redo">重做一次</string>
+
+<string name="subjectclass">分类</string>
+<string name="top_return">返回</string>
+<string name="exit">退出</string>
+
+<string name="networdk_not_available">没有可用的网络,请您设置网络后手动刷新!</string>
+<string name="confirm">确定</string>
+<string name="showQuestion">显示中文</string>
+<drawable name="bkcolor">#fff</drawable>
+</resources>

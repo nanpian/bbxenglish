@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <style name="MyCheckBox" parent="@android:style/Widget.CompoundButton.CheckBox">
+        <item name="android:textSize">16.0sp</item>
+        <item name="android:textColor">@color/checkbox_text_color</item>
+        <item name="android:paddingLeft">28.0px</item>
+        <item name="android:button">@drawable/btn_check</item>
+    </style>
+       <style name="CustomTextApperance" >  
+        <item name="android:textColor">#fffff0</item>  
+        <item name="android:textSize">22sp</item>  
+        <item name="android:textStyle">bold</item>  
+    </style>  
+      
+    <style name="CustomWindowTitle" parent="*android:WindowTitle">  
+        <item name="android:textAppearance">@style/CustomTextApperance</item>  
+    </style>  
+      
+    <style name="CustomTitleBackground" parent="*android:WindowTitleBackground">  
+        <item name="android:background">#2e8b57</item>  
+    </style>  
+      
+    <!-- Application theme. -->  
+    <style name="TieganTheme" parent="android:Theme.Light">  
+        <item name="android:windowTitleStyle">@style/CustomWindowTitle</item>  
+        <item name="android:windowTitleBackgroundStyle">@style/CustomTitleBackground</item>  
+        <item name="android:windowTitleSize">40dp</item>  
+    </style>  
+    
+</resources>

@@ -1,0 +1,91 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/bg"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:stretchColumns="0"
+    android:background="#fffff0"><!--  -->
+    
+
+   <RelativeLayout android:id="@+id/body"  
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent">  
+
+    <ScrollView 
+    android:id="@+id/svTop"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:scrollbars="vertical"
+    android:fadingEdge="vertical"
+   android:layout_above="@+id/bottom" 
+ android:layout_alignParentTop="true" 
+    >
+
+      
+    <LinearLayout android:id="@+id/top"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent"
+  android:orientation="vertical"
+  android:scrollbars="vertical"
+  android:divider="@color/grayz"
+  android:showDividers=""
+
+>    
+
+  
+</LinearLayout> 
+
+ </ScrollView>
+    <LinearLayout 
+        android:id="@+id/bottom" 
+        android:layout_width="fill_parent" 
+        android:layout_height="44dip"   
+        android:background="#2e8b57"
+        android:orientation="horizontal" 
+        android:layout_alignParentBottom="true" >
+        <Button android:text="分类"
+                android:layout_gravity="center"
+                android:background="#2e8b57"
+                android:textSize="20dip" android:textColor="#fffff0"  
+                android:layout_height="wrap_content" 
+                android:layout_width="wrap_content" 
+                android:id="@+id/btnClass"     
+                android:layout_weight="1" >
+        </Button>
+        <Button
+            android:id="@+id/btnFavorite"
+            android:layout_gravity="center"
+            android:background="#2e8b57"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="收藏"
+            android:textColor="#fffff0"
+            android:textSize="20dip" >
+        </Button>
+        <Button android:text="记录"
+                android:layout_gravity="center"
+                android:background="#2e8b57"
+                android:textSize="20dip" 
+                android:textColor="#fffff0"  
+                android:layout_height="wrap_content" 
+                android:layout_width="wrap_content" 
+                android:id="@+id/btnTestRecord"     
+                android:layout_weight="1" >
+        </Button>
+        <Button android:text="说明"
+                android:layout_gravity="center"
+                android:background="#2e8b57"
+                android:textSize="20dip" 
+                android:textColor="#fffff0"  
+                android:id="@+id/btnIntroduce" 
+                android:layout_width="wrap_content" 
+                android:layout_height="wrap_content"     
+                android:layout_weight="1" >
+        </Button>
+    </LinearLayout>
+   </RelativeLayout>
+
+</LinearLayout>

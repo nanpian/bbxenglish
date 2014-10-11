@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout  android:id="@+id/layResult" xmlns:android="http://schemas.android.com/apk/res/android"    android:orientation="vertical" android:layout_width="fill_parent"    android:layout_height="fill_parent">
+    
+    <LinearLayout  android:layout_height="wrap_content" android:layout_width="match_parent"  android:gravity="right"  > 
+    <Button android:text="@string/top_return" 
+               android:id="@+id/btnResultReturn"
+               android:layout_width="80dip"
+      			 android:layout_height="40dip"
+      			 android:textColor="#000"
+              android:layout_marginRight="20dip"
+              android:gravity="center"            
+              android:textSize="20dip"        
+              />   
+     </LinearLayout> 
+     
+ 
+ <LinearLayout  android:layout_height="wrap_content" android:layout_width="match_parent">
+
+ <Button
+     android:id="@+id/btnPlayAllSource"
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:text="@string/playallsource"
+     android:textSize="20dip"
+     android:visibility="gone" />
+        
+   <Button android:id="@+id/btnNextStep" 
+	    android:layout_width="80dip"
+        android:layout_height="40dip"
+        android:textColor="#000"	
+		android:text="@string/nextstep"
+		android:textSize="20dip"       
+		 />  
+
+    
+  <Button android:id="@+id/btnRedo" 
+		android:layout_width="80dip"
+      	android:layout_height="40dip"
+      	android:textColor="#000"
+		android:text="@string/redo"
+		android:textSize="20dip"       
+		 />  
+	 </LinearLayout> 
+	 
+ 
+ 
+		 
+ <LinearLayout  android:layout_height="wrap_content" android:layout_width="match_parent">
+
+ <Button
+     android:id="@+id/btnPlayAllRecord"
+     android:layout_width="80dip"
+      			 android:layout_height="40dip"
+     android:text="@string/playallrecord"
+     android:textSize="20dip"
+     android:visibility="gone" />
+	 
+  <Button
+      android:id="@+id/btnScore"
+      android:layout_width="80dip"
+      			 android:layout_height="40dip"
+      			 android:textColor="#fffff0"
+      android:text="@string/recordupload"
+      android:textSize="20dip"
+      android:visibility="gone" />
+        
+    </LinearLayout> 
+    
+  <LinearLayout  android:layout_height="wrap_content" android:layout_width="match_parent">
+ <Button android:id="@+id/btnViewRanking" 
+	    
+		android:layout_width="80dip"
+      	android:layout_height="40dip"
+      	android:textColor="#000"
+		android:text="@string/viewranking"
+		android:textSize="20dip"       
+		 />  		 
+ 
+        <TextView
+  		 android:id="@+id/tvCurRank" 
+         android:layout_height="wrap_content" 
+         android:layout_width="wrap_content"        
+         android:textColor="#000"
+         android:gravity="center"
+         android:textSize="20dip"       
+          />
+        
+        
+        
+    </LinearLayout> 
+  
+   <LinearLayout  android:id="@+id/llScore" xmlns:android="http://schemas.android.com/apk/res/android"    android:orientation="horizontal" android:layout_width="fill_parent"
+   android:layout_height="wrap_content"
+   android:visibility="gone"
+   android:paddingBottom="3dip"
+   >
+    <TextView
+  		 android:id="@+id/tvStorename" 
+         android:layout_height="wrap_content" 
+         android:layout_width="wrap_content" 
+         android:text="排名"
+         android:textColor="#000"
+         android:gravity="center"
+         android:textSize="20dip" 
+         android:layout_weight="1" 
+          />
+     <TextView
+		 android:id="@+id/tvUsername"
+         android:layout_height="wrap_content" 
+         android:layout_width="wrap_content" 
+         android:text="用户名"
+         android:textColor="#000"
+         android:gravity="center"
+         android:textSize="20dip" 
+         android:layout_weight="1"   
+          />
+     <TextView
+         android:id="@+id/tvTime"
+         android:layout_height="wrap_content" 
+         android:layout_width="wrap_content" 
+         android:text="用时（秒）"
+         android:textColor="#000"
+         android:gravity="center"
+         android:textSize="20dip" 
+         android:layout_weight="1"  
+         />
+</LinearLayout>
+ 
+  <ListView android:id="@+id/lvScore"
+  android:layout_width="fill_parent"
+  android:layout_height="200dip" 
+  android:layout_marginBottom="5dip"
+  android:divider="#fff"
+  android:dividerHeight="0px"
+  android:visibility="gone"
+  />
+  
+</LinearLayout>

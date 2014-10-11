@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:background="#fffff0">
+
+
+    <FrameLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1.0" >
+
+        <LinearLayout
+            android:id="@+id/linearLayout01"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent" 
+            android:orientation="vertical">
+            
+            <LinearLayout 
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="15dp"
+                android:orientation="horizontal">
+                  <ImageView
+        android:id="@+id/star"
+        android:layout_width="200dp"
+        android:layout_height="80dp"
+        android:layout_marginLeft="42dp"
+        android:layout_marginRight="42dp"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/star"
+         />
+            </LinearLayout>
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="1dp" 
+                android:background="@drawable/prefresh_list_cutline"/>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content" 
+                android:orientation="vertical"
+                android:background="@drawable/input"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="14dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp">
+                <LinearLayout 
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_margin="10dp"
+                    >
+                    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"  android:text="用户名" android:textSize="19sp" android:textColor="#000000"/>
+                    <EditText android:id="@+id/register_username" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="20dp" android:hint="请输入用户名" android:background="@null" android:textSize="17sp"/>
+                     
+                </LinearLayout>
+                
+                <View android:layout_height="1dp" android:layout_width="fill_parent" android:background="@drawable/prefresh_list_cutline"/>
+                <LinearLayout 
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp">
+                    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="密  码  " android:textSize="19sp" android:textColor="#000000"/>
+                    <EditText android:id="@+id/register_passwd" android:inputType="textPassword" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="20dp" android:hint="请输入密码" android:background="@null" android:textSize="17sp"/>
+                </LinearLayout>
+                <View android:layout_height="1dp" android:layout_width="fill_parent" android:background="@drawable/prefresh_list_cutline"/>
+                <LinearLayout 
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp">
+                    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="确  认  " android:textSize="19sp" android:textColor="#000000"/>
+                    <EditText android:id="@+id/reregister_passwd" android:inputType="textPassword" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="20dp" android:hint="请确认密码" android:background="@null" android:textSize="17sp"/>
+                </LinearLayout>
+                <View android:layout_height="1dp" android:layout_width="fill_parent" android:background="@drawable/prefresh_list_cutline"/>
+                
+                
+            </LinearLayout>
+            
+
+            <Button
+                android:id="@+id/register_submit"
+                android:layout_width="fill_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="24dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:background="@drawable/register_button_select"
+                android:paddingTop="14dp"
+                android:paddingBottom="14dp"
+                android:textSize="15sp"
+                android:text="注册" />
+        </LinearLayout>
+    </FrameLayout>
+
+</LinearLayout>

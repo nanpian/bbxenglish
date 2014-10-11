@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+ <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+     android:id="@+id/lltop"
+     android:layout_width="fill_parent"
+     android:layout_height="wrap_content"
+     android:orientation="horizontal"
+     android:paddingTop="6dip" >
+
+     <!--
+                <TextView android:text="@string/top_class"
+              android:id="@+id/tvTopClass"
+              android:layout_width="wrap_content"            
+              android:layout_height="wrap_content"
+              android:textColor="#000"  
+              />
+     -->
+
+     <TextView
+         android:id="@+id/tvTopClassname"
+         android:layout_width="210dip"
+         android:layout_height="33dp"
+         android:layout_weight="0.80"
+         android:text=""
+         android:textColor="#f00" />
+
+     <!--
+              <TextView android:text="@string/top_subject"
+              android:id="@+id/tvTopSubject"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:layout_marginLeft="10dip"
+               android:textColor="#000"  
+              />
+                 
+                  <TextView android:text=""
+              android:id="@+id/tvTopNum"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"  
+              android:textColor="#f00"    
+              />
+                  
+                   <TextView android:text="@string/top_split"
+              android:id="@+id/tvTopSubjectSplit"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"   
+              android:textColor="#f00"   
+              />
+                  
+               <TextView android:text=""
+              android:id="@+id/tvTopNums"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"  
+              android:textColor="#f00"    
+              />
+               
+                <TextView android:text="@string/top_time" 
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:layout_marginLeft="10dip"
+               android:textColor="#000"  
+              />
+              
+                
+                 <TextView android:text=""
+              android:id="@+id/tvTopSeconds"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"   
+              android:textColor="#f00"   
+              />
+             
+                 
+                <TextView android:text="@string/top_seconds"          
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"     
+              android:textColor="#f00" 
+              />
+     -->
+     <!--
+             <TextView android:text="@string/presubject" 
+               android:id="@+id/tvPre"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:layout_marginLeft="20dip"
+              android:textSize="20dip" 
+               android:textColor="#000"  
+               android:visibility="invisible"
+              />
+     -->
+
+
+     <!--
+              <TextView android:text="@string/nextsubject" 
+               android:id="@+id/tvNext"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:layout_marginLeft="20dip"
+              android:textSize="20dip" 
+               android:textColor="#000"  
+              />
+     -->
+          <Button
+         android:id="@+id/autoplay"
+         android:visibility="gone"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_gravity="right"
+         android:layout_marginLeft="20dip"
+         android:text="自动播放"
+         android:textColor="#000"
+         android:textSize="18dip" />
+
+     <Button
+         android:id="@+id/btnReturn"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_gravity="right"
+         android:layout_marginLeft="20dip"
+         android:text="@string/top_return"
+         android:textColor="#000"
+         android:textSize="18dip" />
+
+ </LinearLayout>            

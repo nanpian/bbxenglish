@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+     >
+
+    <Preference android:title="字体图片大小"  
+        android:key="font" >
+         <intent 
+        android:targetPackage="com.hyx.android.Game1" android:targetClass="com.hyx.android.Game1.FontActivity" />        
+    </Preference>
+    <com.hyx.android.Game1.ui.CheckBoxPreference
+        android:key="autoplay"
+        android:defaultValue="true"
+        android:enabled="true"
+        android:title="自动播放" />
+      <Preference android:title="使用说明"  
+          android:key="introduce"
+        >
+          <intent 
+        android:targetPackage="com.hyx.android.Game1" android:targetClass="com.hyx.android.Game1.IntroduceActivity" /> 
+      </Preference>
+
+
+</PreferenceScreen>
